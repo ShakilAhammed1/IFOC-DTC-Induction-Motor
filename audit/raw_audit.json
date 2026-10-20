@@ -1,0 +1,1237 @@
+{
+  "IFOC_R1000_E1000_L100_N1600_B1000": {
+    "settings": {
+      "BandFactor": 1.0,
+      "Controller": "IFOC",
+      "EstimateFactor": 1.0,
+      "ID": "IFOC_R1000_E1000_L100_N1600_B1000",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.0,
+      "Speed_rpm": 1600.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.8999987500000004,
+      3.5000000000000004
+    ],
+    "retained_current_samples": 960003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": 1.1368683772161603e-13,
+      "TorqueStd_Nm": -7.105427357601002e-15,
+      "CurrentRMS_A": -1.4210854715202004e-12,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": 0.0,
+      "Voltage99Fraction": 0.0,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      1006.0,
+      1006.0,
+      1004.0,
+      1004.0,
+      1008.0,
+      1008.0
+    ],
+    "speed_drift_rpm": -8.225394481087278e-05,
+    "torque_drift_Nm": -0.16841812584868876,
+    "current_RMS_drift_pct": 0.06295696845733992,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.0648571241034386,
+        "end_s": 3.4351428758965614,
+        "THD50_phases_pct": [
+          4.743014139848459,
+          4.726983289413052,
+          4.705192650923226
+        ],
+        "Residual40k_phases_pct": [
+          17.15714868259376,
+          17.151816794007733,
+          17.14043616011603
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.057428562051719,
+        "end_s": 3.2425714379482806,
+        "THD50_phases_pct": [
+          5.6539083334091655,
+          5.664421208451131,
+          5.724597506009577
+        ],
+        "Residual40k_phases_pct": [
+          17.125734620397377,
+          17.131067841970825,
+          17.132124720755968
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.2574285620517194,
+        "end_s": 3.442571437948281,
+        "THD50_phases_pct": [
+          5.691374861608614,
+          5.69499492768261,
+          5.669983903725128
+        ],
+        "Residual40k_phases_pct": [
+          17.14237234072823,
+          17.166163896786024,
+          17.124263440484533
+        ]
+      }
+    ]
+  },
+  "IFOC_R1500_E1000_L100_N1600_B1000": {
+    "settings": {
+      "BandFactor": 1.0,
+      "Controller": "IFOC",
+      "EstimateFactor": 1.0,
+      "ID": "IFOC_R1500_E1000_L100_N1600_B1000",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.5,
+      "Speed_rpm": 1600.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.8999987500000004,
+      3.5000000000000004
+    ],
+    "retained_current_samples": 960003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 2.2737367544323206e-13,
+      "MeanTorque_Nm": 0.0,
+      "TorqueStd_Nm": 0.0,
+      "CurrentRMS_A": 1.9895196601282805e-13,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": null,
+      "IqLimitFraction": 0.0,
+      "Voltage99Fraction": 0.0,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      1002.0,
+      1002.0,
+      1004.0,
+      1004.0,
+      1002.0,
+      1002.0
+    ],
+    "speed_drift_rpm": 2.3564402945999063,
+    "torque_drift_Nm": -4.6751993537259295,
+    "current_RMS_drift_pct": 0.10029228343491248,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.0029305854649357,
+        "end_s": 3.4970694145350643,
+        "THD50_phases_pct": [
+          7.178210411686559,
+          7.201176521607858,
+          7.224788057142704
+        ],
+        "Residual40k_phases_pct": [
+          21.28806033066463,
+          21.303067295659766,
+          21.331597445614506
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.0264652927324676,
+        "end_s": 3.2735347072675323,
+        "THD50_phases_pct": [
+          7.1923998173929435,
+          7.187167428710834,
+          7.252386048180549
+        ],
+        "Residual40k_phases_pct": [
+          21.25427481804776,
+          21.277818137472636,
+          21.343905206395025
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.2264652927324677,
+        "end_s": 3.4735347072675324,
+        "THD50_phases_pct": [
+          7.207273304289615,
+          7.1861993077093915,
+          7.230753556129272
+        ],
+        "Residual40k_phases_pct": [
+          21.26538990897204,
+          21.252310141432314,
+          21.28620593112177
+        ]
+      }
+    ]
+  },
+  "IFOC_R1500_E1500_L100_N1600_B1000": {
+    "settings": {
+      "BandFactor": 1.0,
+      "Controller": "IFOC",
+      "EstimateFactor": 1.5,
+      "ID": "IFOC_R1500_E1500_L100_N1600_B1000",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.5,
+      "Speed_rpm": 1600.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.8999987500000004,
+      3.5000000000000004
+    ],
+    "retained_current_samples": 960003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": 1.1368683772161603e-13,
+      "TorqueStd_Nm": 7.105427357601002e-15,
+      "CurrentRMS_A": -1.4210854715202004e-13,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": 0.0,
+      "Voltage99Fraction": 0.0,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      1000.0,
+      1000.0,
+      1008.0,
+      1008.0,
+      1010.0,
+      1010.0
+    ],
+    "speed_drift_rpm": -0.03643140832332392,
+    "torque_drift_Nm": 0.2547003376180328,
+    "current_RMS_drift_pct": 0.022334903576066815,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.066010678087705,
+        "end_s": 3.433989321912295,
+        "THD50_phases_pct": [
+          4.333888918235746,
+          4.329677801988831,
+          4.3178571502441105
+        ],
+        "Residual40k_phases_pct": [
+          17.444732424565377,
+          17.451525862703384,
+          17.44731370818615
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.0580053390438526,
+        "end_s": 3.241994660956147,
+        "THD50_phases_pct": [
+          4.32373051132044,
+          4.3247295065522975,
+          4.3192614089168035
+        ],
+        "Residual40k_phases_pct": [
+          17.44267479747833,
+          17.4497836276582,
+          17.4482091482651
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.258005339043853,
+        "end_s": 3.4419946609561474,
+        "THD50_phases_pct": [
+          4.337638310847344,
+          4.324564959137074,
+          4.316589871306065
+        ],
+        "Residual40k_phases_pct": [
+          17.44926912247031,
+          17.451059984069072,
+          17.447222603149893
+        ]
+      }
+    ]
+  },
+  "DTC_R1000_E1000_L100_N1600_B0010": {
+    "settings": {
+      "BandFactor": 0.01,
+      "Controller": "DTC",
+      "EstimateFactor": 1.0,
+      "ID": "DTC_R1000_E1000_L100_N1600_B0010",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.0,
+      "Speed_rpm": 1600.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.8999987500000004,
+      3.5000000000000004
+    ],
+    "retained_current_samples": 960003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": 0.0,
+      "TorqueStd_Nm": 0.0,
+      "CurrentRMS_A": -6.821210263296962e-13,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": null,
+      "Voltage99Fraction": null,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      974.0,
+      974.0,
+      976.0,
+      976.0,
+      976.0,
+      976.0
+    ],
+    "speed_drift_rpm": -0.028597873452554268,
+    "torque_drift_Nm": 1.323350442253286,
+    "current_RMS_drift_pct": 0.13497169519137284,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.0648356627034166,
+        "end_s": 3.4351643372965834,
+        "THD50_phases_pct": [
+          7.531841092755843,
+          7.684918297059574,
+          6.960138923630602
+        ],
+        "Residual40k_phases_pct": [
+          17.554626971790114,
+          17.740696991461554,
+          17.36354176351538
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.057417831351708,
+        "end_s": 3.242582168648292,
+        "THD50_phases_pct": [
+          8.836628804660613,
+          9.188676291530836,
+          8.897439595439527
+        ],
+        "Residual40k_phases_pct": [
+          17.480403349150894,
+          17.175455438044295,
+          17.46835072850116
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.257417831351708,
+        "end_s": 3.442582168648292,
+        "THD50_phases_pct": [
+          8.667857766906188,
+          8.942472020728252,
+          7.752291184791296
+        ],
+        "Residual40k_phases_pct": [
+          17.548955449959568,
+          17.95499092238294,
+          17.284539804537516
+        ]
+      }
+    ]
+  },
+  "DTC_R1000_E1000_L050_N1600_B0010": {
+    "settings": {
+      "BandFactor": 0.01,
+      "Controller": "DTC",
+      "EstimateFactor": 1.0,
+      "ID": "DTC_R1000_E1000_L050_N1600_B0010",
+      "Load_pu": 0.5,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.0,
+      "Speed_rpm": 1600.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.8999987500000004,
+      3.5000000000000004
+    ],
+    "retained_current_samples": 960003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": -1.1368683772161603e-13,
+      "TorqueStd_Nm": 2.842170943040401e-14,
+      "CurrentRMS_A": 3.410605131648481e-13,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": null,
+      "Voltage99Fraction": null,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      1032.0,
+      1032.0,
+      1044.0,
+      1044.0,
+      1020.0,
+      1020.0
+    ],
+    "speed_drift_rpm": 0.018293896011300603,
+    "torque_drift_Nm": 1.2806008824458104,
+    "current_RMS_drift_pct": 0.26103876904329276,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.0636704449432446,
+        "end_s": 3.4363295550567554,
+        "THD50_phases_pct": [
+          13.196721916178198,
+          12.362880335944492,
+          12.07116400311147
+        ],
+        "Residual40k_phases_pct": [
+          29.52297678794174,
+          29.799965121788937,
+          29.0442222251967
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.056835222471622,
+        "end_s": 3.243164777528378,
+        "THD50_phases_pct": [
+          13.818894111675673,
+          14.685830226828315,
+          14.191439326118914
+        ],
+        "Residual40k_phases_pct": [
+          29.550813900150118,
+          30.35859857153873,
+          28.336857363245056
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.256835222471622,
+        "end_s": 3.443164777528378,
+        "THD50_phases_pct": [
+          13.393921432298843,
+          12.675903636337438,
+          12.319848301912444
+        ],
+        "Residual40k_phases_pct": [
+          29.654754132917255,
+          29.898073172688566,
+          29.486872989629525
+        ]
+      }
+    ]
+  },
+  "DTC_R1000_E1000_L100_N900_B0010": {
+    "settings": {
+      "BandFactor": 0.01,
+      "Controller": "DTC",
+      "EstimateFactor": 1.0,
+      "ID": "DTC_R1000_E1000_L100_N900_B0010",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.0,
+      "Speed_rpm": 900.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 4.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.5
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 4.5,
+    "retained_current_range_s": [
+      3.3999987500000004,
+      4.5
+    ],
+    "retained_current_samples": 1760003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": -2.7755575615628914e-17,
+      "MeanTorque_Nm": 1.1368683772161603e-13,
+      "TorqueStd_Nm": 0.0,
+      "CurrentRMS_A": 1.5631940186722204e-12,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": null,
+      "Voltage99Fraction": null,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      2337.0,
+      2337.0,
+      2339.0,
+      2339.0,
+      2327.0,
+      2328.0
+    ],
+    "speed_drift_rpm": -0.007957238631661312,
+    "torque_drift_Nm": 0.07215579351316137,
+    "current_RMS_drift_pct": 0.03595559793473593,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.673932373398407,
+        "end_s": 4.326067626601593,
+        "THD50_phases_pct": [
+          4.775899332816343,
+          5.041844781196951,
+          4.963350517682664
+        ],
+        "Residual40k_phases_pct": [
+          15.584584531790668,
+          15.575621710871246,
+          15.579328710306529
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.7369661866992034,
+        "end_s": 4.063033813300796,
+        "THD50_phases_pct": [
+          5.061398972380101,
+          5.46918280356772,
+          5.204566092553583
+        ],
+        "Residual40k_phases_pct": [
+          15.76180432789558,
+          15.526150323545533,
+          15.691071513699665
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.936966186699203,
+        "end_s": 4.263033813300796,
+        "THD50_phases_pct": [
+          4.920022779289791,
+          5.134294213317184,
+          5.0464913537786895
+        ],
+        "Residual40k_phases_pct": [
+          15.510832875369063,
+          15.753928026182466,
+          15.489741518750106
+        ]
+      }
+    ]
+  },
+  "DTC_R1500_E1000_L100_N1600_B0010": {
+    "settings": {
+      "BandFactor": 0.01,
+      "Controller": "DTC",
+      "EstimateFactor": 1.0,
+      "ID": "DTC_R1500_E1000_L100_N1600_B0010",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.5,
+      "Speed_rpm": 1600.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.8999987500000004,
+      3.5000000000000004
+    ],
+    "retained_current_samples": 960003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": 2.2737367544323206e-13,
+      "TorqueStd_Nm": -2.842170943040401e-14,
+      "CurrentRMS_A": 4.831690603168681e-13,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": null,
+      "Voltage99Fraction": null,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      946.0,
+      946.0,
+      974.0,
+      972.0,
+      958.0,
+      958.0
+    ],
+    "speed_drift_rpm": -0.11499117717971785,
+    "torque_drift_Nm": -1.6211767071185932,
+    "current_RMS_drift_pct": 0.13343228182421815,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.0659747572892786,
+        "end_s": 3.4340252427107214,
+        "THD50_phases_pct": [
+          7.626717407810982,
+          7.144562933562709,
+          6.801018941429927
+        ],
+        "Residual40k_phases_pct": [
+          17.840671386934716,
+          17.82115484337674,
+          17.4535729671984
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.057987378644639,
+        "end_s": 3.242012621355361,
+        "THD50_phases_pct": [
+          8.67741020293077,
+          7.291137794402514,
+          7.961291310997735
+        ],
+        "Residual40k_phases_pct": [
+          17.92620293346701,
+          17.257424570438417,
+          18.04812915374522
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.257987378644639,
+        "end_s": 3.442012621355361,
+        "THD50_phases_pct": [
+          7.422575781139792,
+          8.382919629177003,
+          7.152830516606779
+        ],
+        "Residual40k_phases_pct": [
+          17.635891885036514,
+          18.322159705839084,
+          16.486549465884917
+        ]
+      }
+    ]
+  },
+  "IFOC_R1000_E1000_L050_N1600_B1000": {
+    "settings": {
+      "BandFactor": 1.0,
+      "Controller": "IFOC",
+      "EstimateFactor": 1.0,
+      "ID": "IFOC_R1000_E1000_L050_N1600_B1000",
+      "Load_pu": 0.5,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.0,
+      "Speed_rpm": 1600.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.8999987500000004,
+      3.5000000000000004
+    ],
+    "retained_current_samples": 960003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": -5.684341886080802e-14,
+      "TorqueStd_Nm": 0.0,
+      "CurrentRMS_A": 1.9895196601282805e-12,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": 0.0,
+      "Voltage99Fraction": 0.0,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      1006.0,
+      1006.0,
+      1006.0,
+      1006.0,
+      1004.0,
+      1004.0
+    ],
+    "speed_drift_rpm": 0.005177555803811629,
+    "torque_drift_Nm": 0.15778436167090604,
+    "current_RMS_drift_pct": 0.10479162223710217,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.063694939144769,
+        "end_s": 3.436305060855231,
+        "THD50_phases_pct": [
+          6.2391516005251795,
+          6.229037844805163,
+          6.25126827850446
+        ],
+        "Residual40k_phases_pct": [
+          28.431230656699643,
+          28.393089244908964,
+          28.427182945731396
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.0568474695723844,
+        "end_s": 3.2431525304276154,
+        "THD50_phases_pct": [
+          6.627148055784739,
+          6.522500432169254,
+          6.654904272257734
+        ],
+        "Residual40k_phases_pct": [
+          28.433343152549607,
+          28.330872482373362,
+          28.402311007057527
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.2568474695723846,
+        "end_s": 3.4431525304276156,
+        "THD50_phases_pct": [
+          6.656031809799678,
+          6.598775615100605,
+          6.6801025149370075
+        ],
+        "Residual40k_phases_pct": [
+          28.48477307713991,
+          28.413024828830245,
+          28.40968643519352
+        ]
+      }
+    ]
+  },
+  "IFOC_R1000_E1000_L100_N900_B1000": {
+    "settings": {
+      "BandFactor": 1.0,
+      "Controller": "IFOC",
+      "EstimateFactor": 1.0,
+      "ID": "IFOC_R1000_E1000_L100_N900_B1000",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.0,
+      "Speed_rpm": 900.0,
+      "Step_s": 6.25e-07,
+      "Stop_s": 4.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.5
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 4.5,
+    "retained_current_range_s": [
+      3.3999987500000004,
+      4.5
+    ],
+    "retained_current_samples": 1760003,
+    "original_current_step_s": 6.250000001983835e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": 0.0,
+      "TorqueStd_Nm": 1.4210854715202004e-14,
+      "CurrentRMS_A": 6.821210263296962e-13,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": 0.0,
+      "Voltage99Fraction": 0.0,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      1000.0,
+      1000.0,
+      1000.0,
+      1000.0,
+      1000.0,
+      1000.0
+    ],
+    "speed_drift_rpm": -0.007568331161905917,
+    "torque_drift_Nm": -0.040232784426734725,
+    "current_RMS_drift_pct": 0.015887149653923485,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.67402918681743,
+        "end_s": 4.32597081318257,
+        "THD50_phases_pct": [
+          0.2726657999340816,
+          0.27432168406797053,
+          0.27177883563140603
+        ],
+        "Residual40k_phases_pct": [
+          11.620851337607055,
+          11.620279736409232,
+          11.619544740593097
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.737014593408715,
+        "end_s": 4.0629854065912845,
+        "THD50_phases_pct": [
+          0.3000873552912141,
+          0.28396306558918005,
+          0.28137974108821817
+        ],
+        "Residual40k_phases_pct": [
+          11.622203585111807,
+          11.620774279930325,
+          11.620310892338821
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.9370145934087146,
+        "end_s": 4.262985406591285,
+        "THD50_phases_pct": [
+          0.2821407223424028,
+          0.2888838391368871,
+          0.2810857899421672
+        ],
+        "Residual40k_phases_pct": [
+          11.619472855541476,
+          11.619441936936253,
+          11.618014457312203
+        ]
+      }
+    ]
+  },
+  "DTC_R1000_E1000_L100_N1600_B0010_h3125": {
+    "settings": {
+      "BandFactor": 0.01,
+      "Controller": "DTC",
+      "EstimateFactor": 1.0,
+      "ID": "DTC_R1000_E1000_L100_N1600_B0010_h3125",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.0,
+      "Speed_rpm": 1600.0,
+      "Step_s": 3.125e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.899999375,
+      3.5
+    ],
+    "retained_current_samples": 1920003,
+    "original_current_step_s": 3.1250000009919177e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": -1.1368683772161603e-13,
+      "TorqueStd_Nm": 0.0,
+      "CurrentRMS_A": 1.1652900866465643e-12,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": null,
+      "Voltage99Fraction": null,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      980.0,
+      980.0,
+      984.0,
+      984.0,
+      964.0,
+      962.0
+    ],
+    "speed_drift_rpm": -0.22726569613405445,
+    "torque_drift_Nm": -3.2946517168960554,
+    "current_RMS_drift_pct": 0.225110531589097,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.0648306912410788,
+        "end_s": 3.4351693087589212,
+        "THD50_phases_pct": [
+          7.3501312793106734,
+          7.20780278755494,
+          7.5145046851972435
+        ],
+        "Residual40k_phases_pct": [
+          17.848167344474742,
+          17.64142443345846,
+          17.582759256700626
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.057415345620539,
+        "end_s": 3.2425846543794608,
+        "THD50_phases_pct": [
+          9.281109039504198,
+          7.794552423745611,
+          8.790215250701538
+        ],
+        "Residual40k_phases_pct": [
+          17.656871225420275,
+          16.8833056890929,
+          17.474323101300506
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.2574153456205392,
+        "end_s": 3.442584654379461,
+        "THD50_phases_pct": [
+          8.015301255837112,
+          9.010953341595913,
+          9.054068395706786
+        ],
+        "Residual40k_phases_pct": [
+          18.02353279979593,
+          18.262648114648716,
+          18.141478373032985
+        ]
+      }
+    ]
+  },
+  "IFOC_R1500_E1000_L100_N1600_B1000_h3125": {
+    "settings": {
+      "BandFactor": 1.0,
+      "Controller": "IFOC",
+      "EstimateFactor": 1.0,
+      "ID": "IFOC_R1500_E1000_L100_N1600_B1000_h3125",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.5,
+      "Speed_rpm": 1600.0,
+      "Step_s": 3.125e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.899999375,
+      3.5
+    ],
+    "retained_current_samples": 1920003,
+    "original_current_step_s": 3.1250000009919177e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": -1.7053025658242404e-13,
+      "MeanTorque_Nm": 0.0,
+      "TorqueStd_Nm": -7.105427357601002e-15,
+      "CurrentRMS_A": -1.4210854715202004e-12,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": null,
+      "IqLimitFraction": 0.0,
+      "Voltage99Fraction": 0.0,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      1002.0,
+      1002.0,
+      1002.0,
+      1002.0,
+      1002.0,
+      1004.0
+    ],
+    "speed_drift_rpm": 2.4730531701100062,
+    "torque_drift_Nm": -5.167474404425207,
+    "current_RMS_drift_pct": 0.15068035280825806,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.002885567511594,
+        "end_s": 3.497114432488406,
+        "THD50_phases_pct": [
+          7.253099187540602,
+          7.21035654563135,
+          7.2244490952822895
+        ],
+        "Residual40k_phases_pct": [
+          21.338450152221096,
+          21.30692919837736,
+          21.321508433591372
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.026442783755797,
+        "end_s": 3.273557216244203,
+        "THD50_phases_pct": [
+          7.356941168303773,
+          7.306795669609002,
+          7.231789354250522
+        ],
+        "Residual40k_phases_pct": [
+          21.34478807139748,
+          21.33317385789334,
+          21.26559804070238
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.226442783755797,
+        "end_s": 3.473557216244203,
+        "THD50_phases_pct": [
+          7.257077259501596,
+          7.218521236080082,
+          7.258698677422136
+        ],
+        "Residual40k_phases_pct": [
+          21.295623859342843,
+          21.24006251920073,
+          21.293565791583454
+        ]
+      }
+    ]
+  },
+  "IFOC_R1500_E1500_L100_N1600_B1000_h3125": {
+    "settings": {
+      "BandFactor": 1.0,
+      "Controller": "IFOC",
+      "EstimateFactor": 1.5,
+      "ID": "IFOC_R1500_E1500_L100_N1600_B1000_h3125",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.5,
+      "Speed_rpm": 1600.0,
+      "Step_s": 3.125e-07,
+      "Stop_s": 3.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.0
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 3.5,
+    "retained_current_range_s": [
+      2.899999375,
+      3.5
+    ],
+    "retained_current_samples": 1920003,
+    "original_current_step_s": 3.1250000009919177e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": 0.0,
+      "TorqueStd_Nm": 0.0,
+      "CurrentRMS_A": 3.751665644813329e-12,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": 0.0,
+      "Voltage99Fraction": 0.0,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      1008.0,
+      1008.0,
+      1008.0,
+      1008.0,
+      1000.0,
+      1000.0
+    ],
+    "speed_drift_rpm": -0.03039333955712209,
+    "torque_drift_Nm": 0.14500312939571813,
+    "current_RMS_drift_pct": 0.008957808747671988,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.0660112214301565,
+        "end_s": 3.4339887785698435,
+        "THD50_phases_pct": [
+          4.331611751811573,
+          4.333410952150638,
+          4.329116907203719
+        ],
+        "Residual40k_phases_pct": [
+          17.45549846279415,
+          17.448325090366012,
+          17.4442146763027
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.058005610715078,
+        "end_s": 3.2419943892849217,
+        "THD50_phases_pct": [
+          4.33586597348616,
+          4.339825880356051,
+          4.326018029364778
+        ],
+        "Residual40k_phases_pct": [
+          17.464110671864237,
+          17.448389236566427,
+          17.442559644962223
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.2580056107150783,
+        "end_s": 3.441994389284922,
+        "THD50_phases_pct": [
+          4.328965805083177,
+          4.330175232008787,
+          4.33638203232486
+        ],
+        "Residual40k_phases_pct": [
+          17.452468118003793,
+          17.449311905944274,
+          17.4487043948394
+        ]
+      }
+    ]
+  },
+  "DTC_R1000_E1000_L100_N900_B0010_h3125": {
+    "settings": {
+      "BandFactor": 0.01,
+      "Controller": "DTC",
+      "EstimateFactor": 1.0,
+      "ID": "DTC_R1000_E1000_L100_N900_B0010_h3125",
+      "Load_pu": 1.0,
+      "Protocol": "Stage12_v1.0",
+      "RotorFactor": 1.0,
+      "Speed_rpm": 900.0,
+      "Step_s": 3.125e-07,
+      "Stop_s": 4.5,
+      "Timeout_s": 2700.0,
+      "WindowStart_s": 3.5
+    },
+    "stop_event": "ReachedStopTime",
+    "final_speed_time_s": 4.5,
+    "retained_current_range_s": [
+      3.399999375,
+      4.5
+    ],
+    "retained_current_samples": 3520003,
+    "original_current_step_s": 3.1250000009919177e-07,
+    "resampled_Hz": 39999.999987303454,
+    "summary_differences": {
+      "SpeedMAE_rpm": 0.0,
+      "MeanTorque_Nm": -2.2737367544323206e-13,
+      "TorqueStd_Nm": 1.4210854715202004e-14,
+      "CurrentRMS_A": -3.211653165635653e-12,
+      "GateRate_Hz": 0.0,
+      "LoadSpeedDip_rpm": 0.0,
+      "Recovery2pct_s": 0.0,
+      "IqLimitFraction": null,
+      "Voltage99Fraction": null,
+      "SettledScreen": 0.0
+    },
+    "phase_gate_rates_Hz": [
+      2320.0,
+      2321.0,
+      2329.0,
+      2329.0,
+      2329.0,
+      2328.0
+    ],
+    "speed_drift_rpm": 0.0007763816580563798,
+    "torque_drift_Nm": 0.05226489648214283,
+    "current_RMS_drift_pct": 0.000842331354557973,
+    "spectral_windows": [
+      {
+        "cycles": 20,
+        "start_s": 3.673931749092292,
+        "end_s": 4.326068250907708,
+        "THD50_phases_pct": [
+          5.111080838292397,
+          4.640914520324706,
+          4.7535267791506906
+        ],
+        "Residual40k_phases_pct": [
+          15.745071163964903,
+          15.647007434243005,
+          15.536313459526534
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.736965874546146,
+        "end_s": 4.0630341254538545,
+        "THD50_phases_pct": [
+          5.430903065628173,
+          4.927716693347216,
+          4.908599771488292
+        ],
+        "Residual40k_phases_pct": [
+          15.72584683599367,
+          15.74132539984542,
+          15.551251542374393
+        ]
+      },
+      {
+        "cycles": 10,
+        "start_s": 3.9369658745461455,
+        "end_s": 4.263034125453854,
+        "THD50_phases_pct": [
+          5.43609764421999,
+          4.69802981082207,
+          5.085532692813396
+        ],
+        "Residual40k_phases_pct": [
+          15.878065471436889,
+          15.603758022401863,
+          15.548952039650697
+        ]
+      }
+    ]
+  }
+}
